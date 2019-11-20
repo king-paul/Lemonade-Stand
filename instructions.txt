@@ -1,0 +1,215 @@
+
+Overview Of The Game
+--------------------
+Welcome to Lemonade Stand.
+Lemonade Stand is a business simulation, where the player must try to make as
+much money as possible by selling cups of lemonade. You have three levels of
+difficulty to choose from, each of which have a different starting amount. To
+win a game you must reach the target amount of $5000. If at any time during the
+game you have less than $5 without enough assets to make more money you will go
+bankrupt and lose the game.
+
+When the game begins the store will initially be closed. Before you can open it
+you must have at least one jug of lemonade in stock. To do this you must first
+have stock items of which to make jugs of lemonade with. You will need to buy
+lemons, bags of sugar and ice. Once you have purchased your stock items you can
+fill up the jugs of lemonade. Then you will be able to begin your sales and try
+to make enough profit to win.
+--End Page--
+
+Starting a Game
+---------------
+On the main menu there are two options that allow you to start a game. You can
+start a new game or you can load a saved game to continue from where you left
+off. The 'save game' option will not work if there is no data inside the file
+and every time you save a game any existing data will be over-written.
+
+There are two things that you will be prompted to do when you start a new
+game. Enter your name, and choose a level of difficulty.
+
+Each of the three levels of difficulty will give you a different amount of
+money to begin with amount and a different default day length for when the
+store is open. They are as shown below.
+
+Difficulty Starting Amount Starting Time length
+---------- --------------- --------------------
+Easy	        $200             210 secs
+Medium	        $100             120 secs
+Hard	        $50               60 secs
+
+Every time the store opens it will remain open for a limited amount of time 
+that increases with each passing day.
+--End Page--
+
+Loading a Game
+--------------
+When you start up the load game screen you will see a list of games that have
+been saved to file. Under each individual save slot that is not empty you will
+find the player name, the date of the save, the current day of the game,
+current money and target money for that particulat saved game.
+
+Example:
+No.	Player Name	Date Saved	Day	Current Funds	Target Amout
+1.	Paul King	4/11/2010	15	$721.30		$5000
+
+If there are no saved gameyou will immediately be forced to leave the screen,
+however if there is atleast one saved game you will be given 3 options. To load
+a saved game, delete a saved game and exit back to the main menu.
+
+If you choose to load one of the existing games, you will be prompted to select
+which one and once loaded you will be able to immediately continue from the
+game day which you saved. If you choose to delete a saved game, you will be
+prompted to select which one and once selected the game will permanently be
+removed from the file.
+--End Page--
+
+Using The Game Menu (Part 1 of 2)
+---------------------------------
+Once the game has started you see the in-game main menu. Here you will
+have 9 options. Below is a description of what each selection does.
+
+(1) Begin Day - This will open the store and enable you to sell lemonade to
+customers that pass by. In order to open the store you must have at least 1 jug
+of lemonade in stock to sell. For more information on where this takes you see
+'Selling Lemonade'.
+
+(2) See Finances - This screen will allow you to view all the information 
+regarding your current money, money spent, profit made, sales made, items in
+stock etc. You can also view how many customers were happy, unhappy and how
+much stock in total has been destroyed by accidents or contamination.
+
+(3) Buy Stock - This will take you to the buy stock screen. See 'Buying 
+ingredients'
+
+(4) Set Recipe or Price - Here you can adjust the recipe used in your lemonade
+and you can also adjust the price per each cup. You can adjust the recipe's
+sweetness or sourness depending on the amount of lemon or sugar, or make it
+--End Page--
+
+Using The Game Menu (Cont.)
+---------------------------------
+warmer or colder depending on the amount of ice. You can also increase the
+price to make more profit off each sale or lower it to try and make more sales.
+However the recipe cannot be changed while you still have lemonade in stock.
+
+(5) Make Lemonade - Once you have enough items in stock to make lemonade you
+can go here to make lemonade. Six cups can be made from one jug and you will be
+asked how many jugs you want to make. Once you leave this screen you can open
+the store and start the day.
+
+(6) Save The Game - This option will enable you to save your current game so
+that you can continue it later. If there is already a game saved in the file
+then you will overwrite it each time you save.
+		
+(0) Exit Game - Choosing this option will end the game, taking you back to the
+main menu.
+--End Page--
+
+Buying ingredients
+------------------
+In order to make jugs of lemonade there are three ingredients you will need in
+stock. Lemons, sugar and ice. The amount required of each of these ingredients
+depends on your recipe and you will not be able to fill up jugs unless you have
+enough stock. 1 bag of sugar is enough for 8 cups of sugar and 1 bag of ice
+holds 10 ice cups.
+
+To obtain more ingredients you will need to select the 'Buy Stock' option from
+the game menu. Your current stock supply and the cost for each type of item
+will appear. You will be given two options. The first is to select the exact
+quantity of each item you wish to buy. The second is to buy stock by selecting
+how many jugs you want to fill and the required stock will be calculated
+automatically. The prices of each type of item vary each day so you may want to
+buy more of them while they are cheap and avoid buying them on days when they
+are expensive.
+
+Once you have made your decision, the items chosen and the total price will
+appear asking you to confirm the purchase.
+--End Page--
+
+Selling lemonade
+----------------
+Once the store is open a new customer will arrive once every set number of
+seconds. The time delay between each customer depends on the weather
+temperature. If the customer finds the price of your lemonade reasonable they
+will then purchase a cup and try it. If the customer likes the taste they will
+then buy 1 to 5 more cups. If the customer finds the price to be low then they
+will double their offer and buy 2 to 10 cups.
+
+If the customer does not like the recipe then they will walk away without
+any more purchases and the recipe problem will be shown to you under the
+customer information message.
+
+Every second there is a random chance of the lemons or sugar being infested by
+a rodent or a child knocking over one or more cups of lemonade. If this happens
+you will lose stock.
+
+Every 5 seconds there is a random chance of lemonade being lost by either an
+accident, theft or produce given for free, or alternativley, a rodent getting
+into one of your bags of sugar and soiling it. When this happens you will lose
+some of the supply from your stock.
+
+There are 3 different game speeds you can run the game at when the store is
+open. Normal, Fast and Ultra. You may also just simply choose to skip the
+--End Page--
+
+Selling lemonade (cont.)
+------------------------
+process and go to the end of the day where the daily report is shown.
+
+Each day will last a set number of game ticks which is equal to 1 second at
+normal speed. When this time runs out the day is over and the store will close.
+Any lemonade that is leftover and did not get sold will then be thrown out.
+
+If you run out of cups of lemonade in the store, you will immediately have to
+close again and you will not be able to sell to any more customers that arrive
+on that day. You will then need to make more lemonade before you can open the
+store again.
+
+If the sale price or the recipe is a problem, you can change it by selecting
+the "set recipe or price" screen option on the game menu.
+
+As soon as the store closes and you leave the screen you will visit a daily
+report screen showing a summary of what happened in that day. One day will then
+pass on the game menu and new weather will be generated.
+--End Page--
+
+Weather Forecast
+----------------
+Everyday a random weather forecast will be generated. The temperature in
+degrees celsius will vary from 10oC to 45oC. There are 4 temperature modes
+which depend on the degrees.
+Mild: Less than 20oC
+Warm: 20oC - 29oc
+Hot: 30oc -39oc
+Very Hot: 40oc - 45oc
+
+on hotter days more ice will be required in your lemonade recipe in order
+for the temperature to be ideal and on colder days less ice is required. The
+frequency of customers will also vary depending on the temperature. Below is
+the frequency each customer will appear while running at normal speed with
+justification for the temperature.
+Cold: Every 5 seconds
+Warm: Every 4 seconds
+Hot: Every 3 seconds
+Very Hot: Every 4 seconds
+If it is raining an extra 1 second will be added on in the time period between
+each customer.
+--End Page--
+
+Destruction of stock items
+--------------------------
+Everytime lemonade is made a random amount of stock will be lost while the
+lemonade is being made. You will lose lemons if they go bad, lose sugar when
+it is infested by a rodent and lose ice when it melts.
+
+Whenever the store closes and the day ends, all ice that you have in stock
+melts. If the timer runs out then all remaining cups of lemonade will go off 
+and will have to be thrown out.
+
+You will need to take both these aspects into account in order to make wise
+decisions. You must be careful with how much stock you purchase and how much
+lemonade you make if you hope to be prosperous.
+
+Good luck with the lemonade sales. The future of the business is in your hands.
+Now go out there and make yourself a fortune!
+--End Page--

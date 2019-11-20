@@ -1,0 +1,77 @@
+-----------------
+|Version History|
+-----------------
+Version 1.00
+-------------
+* Stock price ranges have been updated.
+  Lemons Kilos cost $2.40 - $4.80
+  Sugar Bags cost $1.60 - $3.20
+  Ice bags cost $1.10 - $2.20 
+* A dashed line is now found between each customer on the store info message box for easier reading
+* The Lemonade recipe can not be changed while there is lemonade in stock
+* The weather temperature now effects the lemonade temperature effected by the ice amount
+* The total profit on the daily finance now displays a value other than 0
+* Bugs in the information on the stock and finance screens have been fixed
+* You can no longer go bankrupped if you have enough money to by more stock
+
+Version 1.01
+------------
+* Spelling an grammer problems in the instructions have been fixed
+* spelling and grammer errors in several sections of the game now fixed
+* Target money is now $500
+* Bug where the the winning amount shows an expedential figure after winning the game should now be
+  fixed
+  
+Version 1.02
+------------
+* The stock list feature has been disabled and stock can no longer go off due to days in stock
+* Stock can now be selected automatically based on the number of lemonade jugs you select
+* random amounts of stock now get destroyed each time you choose to make lemonade
+* New events have been added while the store is open
+  lemonade can sometimes get knocked over by a ball
+  a rodent can soemtimes soil a bag of sugar
+  students sometimes run off with cups without paying
+  free cups are sometimes given out to homeless
+* Only 1 event can now happen every 5 seconds instead of multiple events
+* The daily finance screen has been updated due to changes
+
+Version 1.03
+------------
+* Bug was displayed on make lemonade screen where no message would be if theplayed if the player chose
+  to fill the maximum amount of jugs and they didn't have enough stock to make one.
+* loop now exits after player buys a selected stock manually instead of having to select cancel
+* upto 1 jugs og lemonade can be kncoked over by a ball
+* Weather forecast has been changed so that the wording is better and there are now only 3 types of cloud coverage
+* A dollar sign is now added by default when a player chooses to change the lemonade price
+* 3 starting difficulties have been re-enabled. Initial day length now depends on the difficulty selected and
+  and they are mentioned when selecting a starting difficulty
+* 3 different winning target money totals are avaialable for testing purposes
+* More changes were made to the instructions
+* Bugs in the daily report and finance screen in regards to profit was fixed
+
+Version 1.10
+------------
+* The current date of the game and the date of each saved game was added
+* Multiple saved games can be written and read from 1 file (although not working)
+* More spelling and grammer errors in the instuctions were fixed
+
+Version 1.11
+------------
+* Error where the number of cups in stock would go to 65511 now goes to negative figures instead
+* a few spelling errors in program is fixed
+
+Version 1.12
+------------
+* Problem where lemons would go into negeative figures sometimes after gong off fixed
+* Problem where lemons would be removed when ants infest sugar fixed
+* Problem where the game program would close immediately after the target is made is fixed
+* Stock list information in debug mode while the store is open removed
+* Finances now all shown on one screen
+
+Version 1.13
+------------
+* Bug where only 1 game would show up on the load game screen now fixed
+* Existing saved games can now be overwritten with a new save
+* Saved games on the load game screen can now be deleted
+* Insturction are updated to show new information about saved games
+--* The select target money option has been removed
